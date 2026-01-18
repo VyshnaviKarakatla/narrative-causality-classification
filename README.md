@@ -1,9 +1,11 @@
-Narrative Consistency Classification
+#Narrative Consistency Classification
 
 This project builds a machine learning system that checks whether a hypothetical character backstory is logically consistent with a full-length novel. The focus of the task is global reasoning across long narratives rather than short text understanding.
 
 The project was developed as part of the Kharagpur Data Science Hackathon 2026.
 
+
+#Project Summary
 The problem involves analyzing a complete novel containing more than one hundred thousand words and a newly written backstory for a main character. The goal is to predict whether the backstory can logically produce the events and character behavior observed in the novel. If it fits, the output is Consistent. If it conflicts with the narrative, the output is Contradict.
 
 The approach begins with cleaning the raw text by converting it to lowercase and removing unnecessary characters. Because the stories are very long, each narrative is split into smaller overlapping parts so that important context is not lost. These text parts are then converted into numerical values using TF-IDF, which highlights important words while reducing the impact of very common ones.
