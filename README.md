@@ -1,1 +1,1 @@
-# VyshnaviKarakatla-narrative-causality-classification
+# narrative-causality-classification
